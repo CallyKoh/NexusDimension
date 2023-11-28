@@ -85,7 +85,7 @@
           }
         },
         {
-          "biome": "chocolate:cyan_pillars",
+          "biome": "chocolate:pillars_of_creation",
           "parameters": {
             "temperature": -1,
             "humidity": -1,

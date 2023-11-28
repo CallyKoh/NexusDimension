@@ -18,7 +18,8 @@
     "carvers": {},
     "features": [
         [
-            "chocolate:cyan_sparse_pillar"
+            "chocolate:cyan_sparse_pillar",
+            "chocolate:red_ball"
         ]
     ]
 }
