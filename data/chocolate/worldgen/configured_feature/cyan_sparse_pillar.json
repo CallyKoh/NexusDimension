@@ -1,36 +1,28 @@
 {
-    "type": "minecraft:ore",
-    "config": {
-      "size": 3,
-      "discard_chance_on_air_exposure": 0,
-      "targets": [
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
         {
-          "target": {
-            "predicate_type": "minecraft:block_match",
-            "block": "minecraft:air"
-          },
-          "state": {
-            "Name": "minecraft:cyan_stained_glass"
-          }
-        },
-        {
-          "target": {
-            "predicate_type": "minecraft:block_match",
-            "block": "minecraft:air"
-          },
-          "state": {
+          "weight": 1,
+          "data": {
             "Name": "minecraft:sea_lantern"
           }
         },
         {
-          "target": {
-            "predicate_type": "minecraft:block_match",
-            "block": "minecraft:air"
-          },
-          "state": {
+          "weight": 3,
+          "data": {
+            "Name": "minecraft:cyan_stained_glass"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
             "Name": "minecraft:cyan_concrete"
           }
         }
       ]
     }
   }
+}
