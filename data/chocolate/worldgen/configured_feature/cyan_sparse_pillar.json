@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:ore",
+    "config": {
+      "size": 3,
+      "discard_chance_on_air_exposure": 0,
+      "targets": [
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "state": {
+            "Name": "minecraft:cyan_stained_glass"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "state": {
+            "Name": "minecraft:sea_lantern"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "state": {
+            "Name": "minecraft:cyan_concrete"
+          }
+        }
+      ]
+    }
+  }
