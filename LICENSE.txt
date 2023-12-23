@@ -1,0 +1,33 @@
+Disclaimer: Most of the prebuilt structures were not my creation. These belong to ChrisDaCow (with permission) and the team at Chocolate Edition (also with permission).
+
+This may seem like overkill, but I would rather be safe than sorry.
+
+This project and all files contained within are the property and creation of Cally_Koh.
+
+No person other than Cally_Koh should ever, under any circumstances, modify this license.
+Do not remove this document. If this document does not match the GitHub, this project is not mine and should be reported to me immediately.
+I do not claim credit for any files in this project that do not exactly line up with the files that are on the GitHub.
+
+By using, downloading, or otherwise accessing this project, you (the user) agree to the following terms.
+
+YOU MAY:
+- Use this project in any modpacks, games, versions, or other such experiences you wish.
+- Use the code presented here as a reference or the concepts for inspiration.
+- Copy segments of code for personal use (with credit, of course).
+- Release and distribute modified versions of this project (with this license included, of course. "this project" means my Github, others may not copy your stuff).
+- Contact me for help or further questions regarding the permissions in this project or for help in your own projects.
+
+YOU MAY NOT:
+- Release or distribute modified versions of this project without the license.
+- Modify this license in any way.
+- Directly release copied files, large portions of code, or builds without credit AND explicit permission.
+- Release modified versions that go against this projects intended usage (for example, political imagery, profanity, or other offensive content).
+- Directly use this project for profit or personal gain, with exception to indirect gain, such as streamers, youtubers, modpack creators, or other such people as I see fit.
+
+I (Cally_Koh) reserve the rights to:
+- Modify this document at any given time with no prior warning.
+- Request the removal of any project that breaks the license I have laid out.
+- Distribute this project as I see fit.
+- Use this project in any way I wish.
+
+To anyone who read this far, thank you for taking the time, hope you have fun or make something interesting yourself!
