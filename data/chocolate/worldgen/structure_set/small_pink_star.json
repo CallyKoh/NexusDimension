@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "chocolate:small_pink_star",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 642360386,
+      "spacing": 5,
+      "separation": 2
+    }
+  }
+  

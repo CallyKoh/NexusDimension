@@ -1,0 +1,34 @@
+{
+    "temperature": 0.5,
+    "precipitation": "none",
+    "downfall": 0,
+    "temperature_modifier": "none",
+    "creature_spawn_probability": 0,
+    "effects": {
+      "sky_color": 0,
+      "fog_color": 10565576,
+      "water_color": 0,
+      "water_fog_color": 0,
+      "grass_color": 0,
+      "foliage_color": 0,
+      "particle": {}
+    },
+    "spawners": {},
+    "spawn_costs": {},
+    "carvers": {},
+    "features": [
+        [
+          "chocolate:white_sparks"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

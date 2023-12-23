@@ -3,10 +3,10 @@
   "generator": {
     "type": "minecraft:noise",
     "settings": {
-      "sea_level": 63,
-      "disable_mob_generation": false,
-      "aquifers_enabled": true,
-      "ore_veins_enabled": true,
+      "sea_level": 1,
+      "disable_mob_generation": true,
+      "aquifers_enabled": false,
+      "ore_veins_enabled": false,
       "legacy_random_source": false,
       "default_block": {
         "Name": "minecraft:air"
@@ -19,7 +19,7 @@
       },
       "noise": {
         "min_y": 0,
-        "height": 256,
+        "height": 320,
         "size_horizontal": 1,
         "size_vertical": 2
       },
@@ -31,27 +31,12 @@
         "temperature": {
           "type": "minecraft:noise",
           "noise": "minecraft:temperature",
-          "xz_scale": 1,
-          "y_scale": 0
+          "xz_scale": 0.7,
+          "y_scale": 1
         },
-        "vegetation": {
-          "type": "minecraft:noise",
-          "noise": "minecraft:vegetation",
-          "xz_scale": 1,
-          "y_scale": 0
-        },
-        "continents": {
-          "type": "minecraft:noise",
-          "noise": "minecraft:continentalness",
-          "xz_scale": 1,
-          "y_scale": 0
-        },
-        "erosion": {
-          "type": "minecraft:noise",
-          "noise": "minecraft:erosion",
-          "xz_scale": 1,
-          "y_scale": 0
-        },
+        "vegetation": 0,
+        "continents": 0,
+        "erosion": 0,
         "depth": 0,
         "ridges": 0,
         "initial_density_without_jaggedness": 0,
@@ -73,30 +58,31 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "minecraft:the_void",
+          "biome": "chocolate:pillars",
           "parameters": {
-            "temperature": 1,
-            "humidity": 1,
-            "continentalness": 1,
-            "erosion": 1,
-            "weirdness": 1,
+            "temperature": -1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
             "depth": 0,
             "offset": 0
           }
         },
         {
-          "biome": "chocolate:pillars_of_creation",
+          "biome": "chocolate:cluster",
           "parameters": {
-            "temperature": -1,
-            "humidity": -1,
-            "continentalness": -1,
-            "erosion": -1,
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": 0,
             "depth": 0,
-            "offset": 0.99
+            "offset": 0
           }
         }
       ]
     }
   }
 }
+  

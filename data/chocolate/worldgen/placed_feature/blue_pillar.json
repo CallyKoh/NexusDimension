@@ -1,0 +1,31 @@
+{
+    "feature":"chocolate:blue_pillar",
+    "placement": [
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 70
+        },
+        {
+            "type": "minecraft:noise_based_count",
+            "noise_to_count_ratio": 40,
+            "noise_factor": 20,
+            "noise_offset": 0
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:trapezoid",
+                "min_inclusive": {
+                    "absolute": 100
+                },
+                "max_inclusive": {
+                    "absolute": 150
+            },
+            "plateau": 120
+          }
+        }
+    ]
+}

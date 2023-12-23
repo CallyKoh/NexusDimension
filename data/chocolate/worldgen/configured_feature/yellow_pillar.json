@@ -1,0 +1,201 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 15,
+    "xz_spread": 2,
+    "y_spread": 40,
+    "feature": {
+      "feature":   {    
+      "type": "minecraft:geode",
+      "config": {
+        "blocks": {
+          "filling_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:deepslate_redstone_ore"
+            }
+          },
+          "inner_layer_provider": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:end_stone"
+                  }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:end_stone_bricks"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "minecraft:glowstone"
+                }
+              },
+              {
+                "weight": 3,
+                "data": {
+                  "Name": "minecraft:gold_ore"
+                }
+              },
+              {
+                "weight": 3,
+                "data": {
+                  "Name": "minecraft:raw_gold_block"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:yellow_glazed_terracotta"
+                  }
+              }
+            ]
+          },
+          "alternate_inner_layer_provider": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:end_stone"
+                  }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:end_stone_bricks"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:glowstone"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:gold_ore"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:raw_gold_block"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:yellow_glazed_terracotta"
+                  }
+              }
+            ]
+          },
+          "middle_layer_provider": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:end_stone"
+                  }
+              },
+              {
+                "weight": 3,
+                "data": {
+                  "Name": "minecraft:end_stone_bricks"
+                }
+              },
+              {
+                "weight": 3,
+                "data": {
+                  "Name": "minecraft:glowstone"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:gold_ore"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:raw_gold_block"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:yellow_glazed_terracotta"
+                  }
+              }
+            ]
+          },
+          "outer_layer_provider": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 3,
+                "data": {
+                  "Name": "minecraft:end_stone"
+                  }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "minecraft:end_stone_bricks"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:glowstone"
+                }
+              },
+              {
+                "weight": 3,
+                "data": {
+                  "Name": "minecraft:yellow_glazed_terracotta"
+                  }
+              }
+            ]
+          },
+          "inner_placements": [{
+            "Name": "minecraft:redstone_ore"
+          }],
+          "cannot_replace": "#minecraft:wool_carpets",
+          "invalid_blocks": "#minecraft:wool_carpets"
+        },
+        "layers": {
+          "filling": 3,
+          "inner_layer": 6,
+          "middle_layer": 9,
+          "outer_layer": 12
+        },
+        "crack": {
+          "generate_crack_chance": 0,
+          "base_crack_size": 2,
+          "crack_point_offset": 2
+        },
+        "noise_multiplier": 0.05,
+        "use_potential_placements_chance": 0,
+        "use_alternate_layer0_chance": 0,
+        "placements_require_layer0_alternate": false,
+        "outer_wall_distance": 8,
+        "distribution_points": 2,
+        "point_offset": 5,
+        "min_gen_offset": -16,
+        "max_gen_offset": 16,
+        "invalid_blocks_threshold": 100
+      }},
+      "placement": []
+    }
+  }
+}

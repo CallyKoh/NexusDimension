@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 20,
+    "xz_spread": 10,
+    "y_spread": 10,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pearlescent_froglight"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:prismarine"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:sea_lantern"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:cyan_glazed_terracotta"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:cyan_concrete"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": []
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "chocolate:large_galaxy",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 18376258,
+      "spacing": 15,
+      "separation": 7
+    }
+  }
+  

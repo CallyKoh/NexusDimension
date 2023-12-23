@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "chocolate:pillars",
+    "step": "raw_generation",
+    "spawn_overrides": {},
+    "start_pool": "chocolate:large_pink_star",
+    "size": 1,
+    "start_height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": {
+        "absolute": 50
+      },
+      "max_inclusive": {
+        "absolute": 200
+      }
+    },
+    "max_distance_from_center": 80,
+    "use_expansion_hack": false
+  }
+  
